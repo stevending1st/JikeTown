@@ -7,29 +7,29 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.10/lottie.min.js" type="text/javascript"></script>
 <link rel="shortcut icon" href="https://img.wusen.me/jiketown/new/favicon.png">
 <style>
-    .gka-wrap{
-        margin: 0 auto;
-        margin-top: -95px;
-    }
-    
-    .lottie-wrap{
+    .gka-wrap {
         margin: 0 auto;
         margin-top: -92px;
+    }
+    
+    .lottie-wrap {
+        margin: 0 auto;
+        margin-top: -20px;
         z-index: 0;
         position: relative;
     }
 
-    #lottie{
-        height: 335px;
+    #lottie {
+        height: 280px;
         margin: auto;
         z-index: -1;
     }
 
-    body{
+    body {
         background: #f9f9f9;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-    .list{
+    .list {
         margin: 0 auto;
         text-align: center;
         width: 100%;
@@ -37,24 +37,24 @@
         transition: .3s ease;
     }
 
-    #first-list{
+    #first-list {
         position: relative;
     }
 
 
-    .list img{
+    .list img {
         margin: 0 auto;
         width: 95%;
         max-width: 500px;
     }
 
-    .list:active{
+    .list:active {
         transform: scale(0.95);
         opacity: 0.8;
         transition: .3s ease;
     }
 
-    .title{
+    .title {
         margin: 0 auto;
         text-align: center;
         width: 100%;
@@ -63,11 +63,11 @@
         position: relative;
     }
 
-    .title img{
+    .title img {
         width: 200px;
     }
 
-    .copy{
+    .copy {
         margin: 0 auto;
         text-align: center;
         width: 100%;
@@ -77,6 +77,16 @@
 
     .copy img{
         width: 180px;
+    }
+
+    #confetti{
+        height: 100vh;
+        margin: auto 0;
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: -10px;
     }
 </style>
 </head>
@@ -91,17 +101,18 @@
     </div>
     <div class="title"><img src="https://img.wusen.me/jiketown/new/title.svg"></div>
 
-    <div class="list" id="first-list"><a href="#"><img src="https://img.wusen.me/jiketown/new/welcomeback.svg"></a></div>
+    <div class="list" id="first-list"><a href="#"><img src="https://img.wusen.me/welcomeback.svg"></a></div>
     <div class="list"><a href="/keywords"><img src="https://img.wusen.me/jiketown/new/keywords.svg"></a></div>
     <div class="list"><a href="/lottery"><img src="https://img.wusen.me/jiketown/new/lottery.svg"></a></div>
     <div class="list"><a href="/bestnine"><img src="https://img.wusen.me/jiketown/new/bestnine.svg"></a></div>
     <div class="list"><a href="/guoguo"><img src="https://img.wusen.me/guoguo.svg"></a></div>
     <div class="list"><a href="/mail"><img src="https://img.wusen.me/jiketown/new/mail.svg"></a></div>
     <div class="list"><a href="/lovejike"><img src="https://img.wusen.me/jiketown/new/lovejike.svg"></a></div>
-    <div class="list"><a href="/stickers"><img src="https://img.wusen.me/jiketown/new/stickers.svg"></a></div>
     <div class="list"><a href="/macOS"><img src="https://img.wusen.me/jiketown/new/macos.svg"></a></div>
     <div class="list"><a href="#"><img src="https://img.wusen.me/jiketown/new/bag.svg"></a></div>
     <div class="copy"></a><img src="https://img.wusen.me/jiketown/new/copy.png"></div>
+    <div id="confetti"></div>
+    <!--
     <script>
     document.body.addEventListener("touchstart", function () {
     });
@@ -126,14 +137,27 @@
         document.getElementById('gka').className += " animation"
     }, "https://img.wusen.me/jiketown/new/")
     </script>
+    -->
     <script>
-    var elem = document.getElementById("lottie");
+        var elem = document.getElementById("lottie");
         lottie.loadAnimation({
             container: elem, // the dom element that will contain the animation
             renderer: 'svg',
             loop: true,
             autoplay: true,
             path: 'https://img.wusen.me/jiketown/newballoon.json' // the path to the animation json
+        });
+
+        var cele = document.getElementById("confetti");
+        lottie.loadAnimation({
+            container: cele, // the dom element that will contain the animation
+            renderer: 'canvas',
+            loop: false,
+            autoplay: true,
+            rendererSettings: {
+                preserveAspectRatio: "xMidYMax slice"
+            },
+            path: 'https://img.wusen.me/confetti.json' // the path to the animation json
         });
     </script>
 </body>
