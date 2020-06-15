@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1">
+    <title>Jike.Town</title>
+<link href="https://img.wusen.me/gka.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.10/lottie.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="https://img.wusen.me/jiketown/new/favicon.png">
+<style>
+    .gka-wrap{
+        margin: 0 auto;
+        margin-top: -95px;
+    }
+    
+    .lottie-wrap{
+        margin: 0 auto;
+        margin-top: -51px;
+        z-index: 0;
+        position: relative;
+    }
+
+    #lottie{
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        z-index: -1;
+    }
+
+    body{
+        background: #f9f9f9;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    .list{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 18px;
+        transition: .3s ease;
+    }
+
+    .list:first-child{
+
+    }
+
+    
+    .list img{
+        margin: 0 auto;
+        width: 95%;
+        max-width: 500px;
+    }
+
+    .list:active{
+        transform: scale(0.95);
+        opacity: 0.8;
+        transition: .3s ease;
+    }
+
+    .title{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: -28px;
+        margin-bottom: 40px;
+    }
+
+    .title img{
+        width: 200px;
+    }
+
+    .copy{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .copy img{
+        width: 180px;
+    }
+</style>
+</head>
+<body>
+    <!--
+    <div class="gka-wrap">
+        <div id="gka"></div>
+    </div>
+    -->
+    <div class="lottie-wrap">
+        <div id="lottie"></div>
+    </div>
+    <div class="title"><img src="https://img.wusen.me/jiketown/new/title.svg"></div>
+
+    <div class="list"><a href="#"><img src="https://img.wusen.me/jiketown/new/welcomeback.svg"></a></div>
+    <div class="list"><a href="/keywords"><img src="https://img.wusen.me/jiketown/new/keywords.svg"></a></div>
+    <div class="list"><a href="/lottery"><img src="https://img.wusen.me/jiketown/new/lottery.svg"></a></div>
+    <div class="list"><a href="/bestnine"><img src="https://img.wusen.me/jiketown/new/bestnine.svg"></a></div>
+    <div class="list"><a href="https://github.com/coder-ysj/jike-meow"><img src="https://img.wusen.me/jiketown/new/meow.svg"></a></div>
+    <div class="list"><a href="/guoguo"><img src="https://img.wusen.me/guoguo.svg"></a></div>
+    <div class="list"><a href="/mail"><img src="https://img.wusen.me/jiketown/new/mail.svg"></a></div>
+    <div class="list"><a href="/lovejike"><img src="https://img.wusen.me/jiketown/new/lovejike.svg"></a></div>
+    <div class="list"><a href="/stickers"><img src="https://img.wusen.me/jiketown/new/stickers.svg"></a></div>
+    <div class="list"><a href="/macOS"><img src="https://img.wusen.me/jiketown/new/macos.svg"></a></div>
+    <div class="list"><a href="#"><img src="https://img.wusen.me/jiketown/new/bag.svg"></a></div>
+    <div class="copy"></a><img src="https://img.wusen.me/jiketown/new/copy.png"></div>
+    <script>
+    document.body.addEventListener("touchstart", function () {
+    });
+
+    function preloadImage(names, cb, prefix){
+        window.gkaCache = window.gkaCache || [];
+        var n = 0,img,imgs = {};
+        names.forEach(function(name) {
+            img = new Image();
+            window.gkaCache.push(img);
+            img.onload = (function(name, img) {
+                return function() {
+                    imgs[name] = img;
+                    (++n === names.length) && cb && cb(imgs);
+                }
+            })(name, img);
+            img.src = (prefix || '') + name;
+        });
+    }
+
+    preloadImage(["s_00000.png","s_00001.png","s_00002.png","s_00003.png","s_00004.png","s_00005.png","s_00006.png","s_00007.png","s_00008.png","s_00009.png","s_00010.png","s_00011.png","s_00012.png","s_00013.png","s_00014.png","s_00015.png","s_00016.png","s_00017.png","s_00018.png","s_00019.png","s_00020.png","s_00021.png","s_00022.png","s_00023.png","s_00024.png","s_00025.png","s_00026.png","s_00027.png","s_00028.png","s_00029.png","s_00030.png","s_00031.png","s_00032.png","s_00033.png","s_00034.png","s_00035.png","s_00036.png","s_00037.png","s_00038.png","s_00039.png","s_00040.png","s_00041.png","s_00042.png","s_00043.png","s_00044.png","s_00045.png","s_00046.png","s_00047.png","s_00048.png","s_00049.png","s_00050.png"], function() {
+        document.getElementById('gka').className += " animation"
+    }, "https://img.wusen.me/jiketown/new/")
+    </script>
+    <script>
+    var elem = document.getElementById("lottie");
+        lottie.loadAnimation({
+            container: elem, // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://img.wusen.me/jiketown/newballoon.json' // the path to the animation json
+        });
+    </script>
+</body>
+</html>

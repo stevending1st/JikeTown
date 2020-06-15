@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="21px" viewBox="0 0 18 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="着陆页" transform="translate(-43.000000, -378.000000)">
+            <g id="Group" transform="translate(43.000000, 379.000000)">
+                <rect id="Rectangle-2" fill="#FFFFFF" x="1.63636364" y="7.42857143" width="6.54545455" height="12.5714286"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" x="9.81818182" y="7.42857143" width="6.54545455" height="12.5714286"></rect>
+                <path d="M9.81818182,3.42857143 C9.94295967,2.31257914 10.4641296,1.32935248 11.3816916,0.478891453 C12.7580347,-0.796800091 14.2224795,0.731983619 13.3966737,2.08027752 C12.8461365,2.97914013 11.6533059,3.42857143 9.81818182,3.42857143 Z" id="Path-2" stroke="#FFFFFF" stroke-width="1.176"></path>
+                <path d="M8.18181818,3.42857143 C6.34669413,3.42857143 5.1538635,2.97914013 4.60332628,2.08027752 C3.77752046,0.731983619 5.24196532,-0.796800091 6.61830836,0.478891453 C7.53587038,1.32935248 8.05704033,2.31257914 8.18181818,3.42857143 Z" id="Path-2" stroke="#FFFFFF" stroke-width="1.176"></path>
+                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="3.42857143" width="18" height="2.28571429"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
