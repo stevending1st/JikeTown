@@ -58,6 +58,15 @@
         opacity: 0.6;
     }
 
+    .disabled img::before{
+        content: "暂不可用";
+    }
+
+    .badge {
+        display: block;
+        background-color: brown;
+    }
+
     .disabled:active {
         transform: scale(1) !important;
         opacity: 0.6 !important;
@@ -98,6 +107,16 @@
         top: 0;
         left: -10px;
     }
+
+    .divider{
+        text-align: center;
+        widows: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        color: #868686;
+        opacity: 0.4;
+    }
 </style>
 </head>
 <body>
@@ -118,6 +137,7 @@
     <div class="list"><a href="/lottery"><img src="https://img.wusen.me/jiketown/new/firday.svg"></a></div>
     <div class="list"><a href="/mail"><img src="https://img.wusen.me/jiketown/new/mail.svg"></a></div>
     <div class="list disabled"><a href="#"><img src="https://img.wusen.me/guoguo.svg"></a></div>
+    <div class="divider">— 以下内容暂不可用 —</div>
     <div class="list disabled"><a href="#"><img src="https://img.wusen.me/jiketown/new/lovejike.svg"></a></div>
     <div class="list disabled"><a href="#"><img src="https://img.wusen.me/jiketown/new/macos.svg"></a></div>
     <div class="list disabled"><a href="#"><img src="https://img.wusen.me/jiketown/new/bag.svg"></a></div>
