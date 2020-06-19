@@ -15,5 +15,6 @@ module.exports = {
             chunks: ['chunk-vendors', 'chunk-common', 'index']
         },
 
-    }
+    },
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn.owlwong.com/' : '/'
 }
