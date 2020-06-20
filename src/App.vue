@@ -6,12 +6,12 @@
         </div>
         <div class="title"><Cards type="title"></Cards></div>
         <div class="list first-list"><a href="#"><Cards type="welcomeBack"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="lottery"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="keywords"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="bestNine"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="friday"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="mail"></Cards></a></div>
-        <div class="list"><a href="#"><Cards type="guoguo"></Cards></a></div>
+        <div class="list"><a href="/lottery"><Cards type="lottery"></Cards></a></div>
+        <div class="list"><a href="/keywords"><Cards type="keywords"></Cards></a></div>
+        <div class="list"><a href="https://kuoluo.applinzi.com/jike/BestNine/"><Cards type="bestNine"></Cards></a></div>
+        <div class="list"><a href="https://www.coolapk.com/apk/com.bruce3x.friday"><Cards type="friday"></Cards></a></div>
+        <div class="list"><a href="/mail"><Cards type="mail"></Cards></a></div>
+        <div class="list disabled"><a href="#"><Cards type="guoguo"></Cards></a></div>
         <div class="divider">— 以下内容暂不可用 —</div>
         <div class="list disabled"><a href="#"><Cards type="lovejike"></Cards></a></div>
         <div class="list disabled"><a href="#"><Cards type="macos"></Cards></a></div>
