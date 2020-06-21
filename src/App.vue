@@ -16,7 +16,7 @@
         <div class="list disabled"><a href="#"><Cards type="lovejike"></Cards></a></div>
         <div class="list disabled"><a href="#"><Cards type="macos"></Cards></a></div>
         <div class="list disabled"><a href="#"><Cards type="bag"></Cards></a></div>
-        <div class="copyright"><img src="https://img.wusen.me/jiketown/new/copy.png" alt="copyright"/></div>
+        <div class="copyright"><img src="./assets/copyright.png" alt="copyright"/></div>
 
         <Confetti />
     </div>
