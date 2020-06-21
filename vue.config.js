@@ -16,5 +16,5 @@ module.exports = {
         },
 
     },
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn.owlwong.com/' : '/'
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn.jsdelivr.net/gh/JikeTown/JikeTown-Public/' : '/'
 }

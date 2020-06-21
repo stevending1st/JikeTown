@@ -4,10 +4,10 @@ const COS = require('cos-nodejs-sdk-v5');
 const glob = require('glob');
 const path = require('path');
 
-const BUCKETNAME = process.env.BUCKETNAME //jiketown-1256165375
-const REGIONNAME = process.env.REGIONNAME // ap-shanghai
-const SECRETID = process.env.SECRETID // AKIDeBXjiWgYrzvhHgxKTQAvUr9IFC3iIW9c
-const SECRETKEY = process.env.SECRETKEY // IVWVIvOsANTTPH3qRr580KUdyDUix64R
+const BUCKETNAME = process.env.BUCKETNAME
+const REGIONNAME = process.env.REGIONNAME
+const SECRETID = process.env.SECRETID
+const SECRETKEY = process.env.SECRETKEY
 
 // 使用永久密钥创建实例
 const cos = new COS({
